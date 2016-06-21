@@ -1,11 +1,12 @@
 body {
-	
+	background-color: #EDEFED;
 }
 
 .banner {
 	background-image: url("../images/Eiffel.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	position: relative;
 	width: 100%;
 	height: 600px;
 }
@@ -93,4 +94,271 @@ body {
 	justify-content: center;
 	margin-left: 40%;
 
+}
+
+.search_banner {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute; bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search {
+	color: grey;
+	text-align: center;
+	background-color: white;
+	width: 75%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search div {
+	width: 15%;
+	display: inline-block;
+	height: 40px;
+	border: 1px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search_red {
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+}
+
+#where {
+	width: 40%;
+	text-align: right;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: #EDEFED;
+}
+
+.vivez-le {
+	margin-top: 50px;
+	width: 75%;
+	height: 350px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vivez-image {
+	background-image: url(../images/paris.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 350px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.vivez-image p {
+	margin-top: 25%;
+}
+
+.vivez-texte {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	color: #565A5C;
+}
+
+.vivez-texte button {
+	color: white;
+	background-color: tomato;
+	border: 0px;
+	border-radius: 3px;
+	height: 40px;
+	width: 175px;
+}
+
+.vivez-texte p {
+	font-size: 12px;
+}
+
+.vivez-texte span {
+	color: tomato;
+}
+
+.section {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 70%;
+	height: 150px;
+	color: #565A5C;
+	background-color: #EDEFED;
+	text-align: center;
+	margin-left: 15%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section h3 {
+	margin: 0;
+}
+
+.section h2 {
+	margin: 2px;
+}
+
+.section2 {
+	display: flex;
+	width: 75%;
+	height: 350px;
+	justify-content: space-between;
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+
+}
+
+#section2_one {
+	width: 32%;
+	height: 100%;
+	background-image: url(../images/City.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#section2_two {
+	width: 32%;
+	height: 100%;
+	background-image: url(../images/Eiffel.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#section2_three {
+	width: 32%;
+	height: 100%;
+	background-image: url(../images/paris.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section3 button {
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-weight: bolder;
+}
+
+.section3 {
+	width: 70%;
+	height: 150px;
+	color: #565A5C;
+	background-color: #EDEFED;
+	text-align: center;
+	margin-left: 15%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section4 {
+	width: 70%;
+	height: 150px;
+	color: #565A5C;
+	background-color: #EDEFED;
+	text-align: center;
+	margin-left: 15%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list-ville {
+	width: 75%;
+	height: auto;
+	margin: auto;
+	color: #565A5C;
+	background-color: #EDEFED;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+   
+}
+
+.list-ville-choice {
+	background-image: url(../images/City.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	min-width: 300px;
+	min-height: 300px;
+	margin-top: 20px;
+	line-height: 300px;
+	color: white;
+	font-size: 33px;
+	font-weight: bolder;
+	margin:0 10px 20px 10px;
+}
+
+.list-ville-choice:nth-child(1) {
+	width: 620px;
+}
+
+.list-ville-choice:nth-child(7) {
+	width: 620px;
+}
+
+.footer-container {
+	width: 100%;
+	height: 250px;
+	background-color: #2B2D2E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.fa-twitter-square {
+	z-index: 1;
+	color: white;
+	position: relative;bottom: 100px;
 }
